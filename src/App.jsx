@@ -46,8 +46,7 @@ const firebaseConfig = {
   projectId: "ogc-live-scoring",
   storageBucket: "ogc-live-scoring.firebasestorage.app",
   messagingSenderId: "1090092959152",
-  appId: "1:1090092959152:web:01c430d0c7e6986ee54275",
-  measurementId: "G-S0E5B1ZPNK"
+  appId: "1:1090092959152:web:01c430d0c7e6986ee54275"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
